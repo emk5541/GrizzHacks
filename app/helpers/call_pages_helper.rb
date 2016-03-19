@@ -1,0 +1,2 @@
+module CallPagesHelper
+end
