@@ -1,9 +1,7 @@
 Rails.application.routes.draw do
   get 'call_pages/show'
 
-  get 'calling', to: 'call_pages#calling'
-
-  root 'call_pages#show'
+  get 'call_pages/calling'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
